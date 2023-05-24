@@ -109,6 +109,10 @@ The report should contain the following:
     - Adjusting the number of hidden layers. Tested having 2,3, and 4 hidden layers with various counts
     - Trying different activation methods such as relu, para_relu, selu, tanh, and more
     - Adjsuting the number of epochs
+    - Using `X_train_scaled` in model instead of `X_train`
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 - The initial deep learning model without any optimizations had an accuracy of about 73.04%
+<img src='https://github.com/mshawn12/deep-learning-challenge/blob/main/Images/AlphabetSoup_model_eval_original.png?raw=true'>
 
+- After making the adjustments noted above, the optimized deep learning model had an accuracy of about 
+<img src='https://github.com/mshawn12/deep-learning-challenge/blob/main/Images/AlphabetSoup_model_eval_optimized.png?raw=true'>
